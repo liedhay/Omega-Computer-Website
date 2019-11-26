@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sessions</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\LENOVO PC\Desktop\web d\responsive\fonts\fontawesome\css\fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="C:\Users\LENOVO PC\Desktop\web d\responsive\fonts\fontawesome\css\brands.css">
+	<link rel="stylesheet" type="text/css" href="C:\Users\LENOVO PC\Desktop\web d\responsive\fonts\fontawesome\css\solid.css">
+</head>
+<style>
+body{
+	margin: 0 auto;
+}
+
+.container{
+	width: 1080px;
+	height: 880px;
+	background-color: #fef9e7;
+	margin: auto;
+}
+.header{
+	width: 1080px;
+	height: 20px;
+	background-color: #1abc9c;
+}
+.header2{
+	width: 1080px;
+	height: 20px;
+	background-color: #e74c3c;
+}
+.icon{
+	width: 50px;
+	height: 40px;
+	float: left;
+	margin-top: -18px;
+	margin-left: 20px;
+}
+.footer{
+	width: 1080px;
+	height: 120px;
+	background-color: #e74c3c;
+	padding-top: 20px;
+	display: inline-block;
+}
+#left h5{
+	margin-left: 80px;
+}
+#right p{
+	margin-right: 300px;
+}
+#left{
+	float: left;
+}
+#right{
+	float: right;
+}
+h5{
+	color: #fdfefe;
+}
+#right p h4{
+	color: #fdfefe;
+}
+
+.icon a{
+	color: #fef9e7;
+}
+.slideshow-container{
+	max-width: 1080px;
+	position: relative;
+	margin: auto;
+}
+.prev, .next{
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: #16a085;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover{
+	background-color: #212f3c;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #16a085;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #7dcea0;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.containerfooter{
+	width: 1080px;
+	height: 50px;
+	background-color: #e74c3c;
+	margin-top: -10px;
+}
+.containerfooter a{
+	color: #fef9e7;
+	text-decoration: none;
+}
+.containerfooter a:hover{
+	color: #1abc9c; 
+}
+
+
+</style>
+<body>
+<div class="container">
+		<div class="header">
+			
+		</div>
+		<div class="header2">
+			<div class="icon">
+				<a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+			</div>
+			
+		</div>
+		<div class="slideshow-container">
+			<div class="slides fade">
+				<!--<div class="numbertext">1/4</div>-->
+				<img src="images/pic001.jpg" style="width: 1080px;">
+				<div class="text">Training Session-1</div>
+			</div>
+			<div class="slides fade">
+				<!--<div class="numbertext">2/4</div>-->
+				<img src="images/pic002.jpg" style="width: 1080px;">
+				<div class="text">Training Session-2</div>
+			</div>
+			<div class="slides fade">
+				<!--<div class="numbertext">3/4</div>-->
+				<img src="images/pic003.jpg" style="width: 1080px;">
+				<div class="text">Training Session-3</div>
+			</div>
+			<div class="slides fade">
+				<!--<div class="numbertext">4/4</div>-->
+				<img src="images/pic004.jpg" style="width: 1080px; height: 606px;">
+				<div class="text">Training Session-4</div>
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+		<div style="text-align: center;">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+		
+		<div class="footer">
+			<div id="left">
+			   <h5>
+				NNPC PIPELINE ROAD, OPPOSITE AYALLA SUITE,<br>
+				BESIDE H&K SHOPPING COMPLEX,<br>
+				ILORIN.KWARA STATE.
+			   </h5>
+		    </div>
+		    <div id="right" style="color: #e5e7e9;">
+			   <p>
+				<h4>CONTACT</h4>
+				Telephone: 0902222222<br>
+				Email: info@omega.com<br>
+				www.omega.com
+			   </p>
+			</div>
+
+		</div>
+		<div class="containerfooter">
+		     
+			<p style="float: right; margin: 20px 450px 0px 250px; font-family:comic sans MS; color: #fef9e7; font-size: 13px; ">
+			Desgined with <i class="fas fa-heart" style="color:#f4d03f;"></i>  by  <a href="#">LALA</a>
+		    </p>
+	    </div>
+</div>
+<script>
+	var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length} ;
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].classList.remove("active");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].classList.add("active");
+}
+</script>	
+</body>
+</html>

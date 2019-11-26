@@ -1,0 +1,198 @@
+body{margin: 0 auto;}
+
+.container{
+	width: 1080px;
+	height: 850px;
+	background-color: #fef9e7;
+	margin: auto;
+}
+.header{
+	width: 1080px;
+	height: 20px;
+	background-color: #2ecc71;
+}
+.header2{
+	width: 1080px;
+	height: 20px;
+	background-color: #e74c3c;
+}
+.banner{
+	width: 1080px;
+	height: 600px;
+	background-color: #e74c3c;
+}
+.section{
+	width: 1080px;
+	height: 300px;
+	background-color: #fef9e7;
+}
+.footer{
+	width: 1080px;
+	height: 120px;
+	background-color: #e74c3c;
+}
+#left h5{
+	margin-left: 80px;
+}
+#right p{
+	margin-right: 300px;
+}
+#left{
+	float: left;
+}
+#right{
+	float: right;
+}
+h5{
+	color: #fdfefe;
+}
+#right p h4{
+	color: #fdfefe;
+}
+#boxes{
+	background: #fef9e7;
+	width: 210px;
+	height: 210px;
+	/* border: 1px solid black; */
+	margin-left: 200px;
+	margin-top: 40px;
+
+}
+#boxes a{
+	text-decoration: none;
+	color: white;
+}
+.tab a{
+	text-decoration: none;
+	color: #e74c3c;
+}
+.box1{
+	width: 100px;
+	height: 100px;
+	background-color: #2ecc71;
+	float: left;
+	text-align: center;
+	color: #fdfefe;
+
+
+}
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: #2ecc71;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	color: #fdfefe;
+
+}
+.box3{
+	width: 100px;
+	height: 100px;
+	background-color: #2ecc71;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	color: #fdfefe;
+}
+.box4{
+	width: 260px;
+	height: 120px;
+	background-color: #fef9e7;
+	float: left;
+	margin-top: -80px;
+	margin-left: 110px;
+	color: white;
+
+
+}
+.box4 p{
+	margin-top: -18px;
+	margin-left: 180px;
+}
+.box1 p{
+	margin-top: 35px;
+}
+.box2 p{
+	margin-top: 35px;
+}
+.box3 p{
+	margin-top: 35px;
+}
+.tab{
+	width: 900px;
+	height: 80px;
+	background-color: #fef9e7;
+	margin-left: 70px;
+}
+.tab1{
+	width: 180px;
+	height: 70px;
+	background-color: #fef9e7;
+	float: left;
+	color: #e74c3c;
+	text-align: center;
+}
+.tab2{
+	width: 180px;
+	height: 70px;
+	background-color: #fef9e7;
+	float: left;
+	text-align: center;
+	color: #e74c3c;
+}
+.tab3{
+	width: 180px;
+	height: 70px;
+	background-color: #fef9e7;
+	float: left;
+	text-align: center;
+	color: #e74c3c;
+}
+.tab4{
+	width: 180px;
+	height: 70px;
+	background-color: #fef9e7;
+	float: left;
+	text-align: center;
+	color: #e74c3c;
+}
+.tab5{
+	width: 180px;
+	height: 70px;
+	background-color: #fef9e7;
+	float: left;
+	text-align: center;
+	color: #e74c3c;
+}
+.tab6{
+	width: 180px;
+	height: 70px;
+	background-color: #fef9e7;
+	float: left;
+}
+.containerfooter{
+	width: 1080px;
+	height: 50px;
+	background-color: #e74c3c;
+}
+.containerfooter a{
+	color: #fef9e7;
+	text-decoration: none;
+}
+.containerfooter a:hover{
+	color: #1abc9c; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
